@@ -12,9 +12,9 @@ jobs:
   mac-arm64:
     runs-on: macos-15       # Apple Silicon (arm64) runner; macos-14 was retired Nov 2026
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
 
-      - uses: actions/setup-node@v4
+      - uses: actions/setup-node@v5
         with:
           node-version: 22
           cache: npm
