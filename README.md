@@ -33,7 +33,7 @@ When the build completes, look in `dist` for `Webmail Launcher Setup 1.0.0.exe`.
 
 ### Build on GitHub (recommended)
 Push this folder to a GitHub repository, open the **Actions** tab, choose **Build macOS app**
-and click **Run workflow**. It builds on an M1 runner; download the `.dmg` from the finished
+and click **Run workflow**. It builds on an Apple Silicon (`macos-15`) runner; download the `.dmg` from the finished
 run. Pushing a tag such as `v1.0.0` also publishes it as a GitHub Release.
 
 ### Package on Windows
